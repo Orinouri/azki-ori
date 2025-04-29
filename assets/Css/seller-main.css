@@ -1,0 +1,4 @@
+@import url(./laptop/seller/main.css)only screen and (min-width: 1279px);
+@import url(./tablet/seller/main.css)only screen and (min-width: 960px) and (max-width: 1279px);
+@import url(./mobile/seller/main.css)only screen and (max-width: 960px);
+@import url(./setting.css);

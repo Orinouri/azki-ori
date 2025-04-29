@@ -1,0 +1,128 @@
+.advantages_box {
+    width: 100%;
+    max-width: 1600px;
+    position: relative;
+    margin: 150px auto;
+    margin-bottom: 0px;
+}
+
+.advantages_box .content {
+    width: 100%;
+    display: flex;
+    margin-top: 84px;
+    align-items: flex-start; /* Align columns to the top */
+    gap: 32px;               /* Add horizontal space between columns */
+}
+
+.advantages_box .content .right {
+    /* display: none !important; */
+    position: relative;
+    top: -216px;                 
+    right: -16px;              
+    flex: 0 0 424px;      
+    max-width: 424px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.advantages_box .content .right img {
+    width: 100%;
+    height: auto;
+    max-width: 424px;
+    min-width: 0;
+    max-height: 100%;
+}
+
+.advantages_box .content .left {
+    max-width: 908px;
+    min-width: 0;
+    display: flex;
+    gap: 16px;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+}
+
+.advantages_box .content .left .advantage_card{
+    display: flex;
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+
+.advantages_box .content .left .advantage_card .img{
+    /* width: 65.5px;
+    height: 55px; */
+    max-width: 16.666667%;
+}
+
+.advantages_box .content .left .advantage_card .leftc{
+    max-width: 83.33333%;
+    margin-right: 35px;
+}
+
+.advantages_box .content .left .advantage_card .leftc .title{
+    display: inline-block;
+    color: rgba(4, 10, 31, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.advantages_box .content .left .advantage_card .leftc .dis{
+    width: 264px;
+    color: rgba(4, 10, 31, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantages_box .qimg{
+    position: absolute;
+    left: 80px;
+    top: -48px;
+}
+
+
+.more-advantage-box{
+    position: relative;
+    top: -100px;
+    right: 0;
+    max-width: 800px;
+    margin: 100px auto;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.more-advantage-box .item{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.more-advantage-box .item p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: -0.5%;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+}
+.more-advantage-box .item img{
+    margin-bottom: 8px !important;
+}
+
+.more-advantage-box .seprator{
+    flex-shrink: 0;
+    border-width: 0;
+    border-style: solid;
+    border-bottom-width: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: auto;
+    border-left-width: 2px;
+    align-self: stretch;
+    margin-right: 16px !important;
+    margin-left: 16px !important;
+    border-color: #cbc8c8 !important;
+}

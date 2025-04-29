@@ -1,0 +1,30 @@
+@import url(./header.css);
+@import url(./service.css);
+@import url(./adslider.css);
+@import url(./Typography.css);
+@import url(./trustcard.css);
+@import url(./Advantages.css);
+@import url(./azkivam_card.css);
+@import url(./azkisarmayeh_card.css);
+@import url(./achivments.css);
+@import url(./B2B_Card.css);
+@import url(./claim.css);
+@import url(./providers.css);
+@import url(./testimonies.css);
+@import url(./products.css);
+@import url(./products-slider.css);
+@import url(./footer.css);
+@import url(./footer-accordion.css);
+@import url(./service-modal.css);
+@import url(./offcanvas-support.css);
+@import url(./search-modal.css);
+@import url(./menu.css);
+@import url(./menu-offcanvas.css);
+@import url(./testimonies-slider.css);
+
+
+
+
+.hidem{
+    display: none !important;
+}

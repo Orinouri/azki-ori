@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./offcanvas-support.css);
+@import url(./service-modal.css);
+@import url(./faq.css);
+@import url(../../setting.css);
+@import url(./footer-accordion.css);
+@import url(./menu.css);
+@import url(./menu-offcanvas.css);
+@import url(./Explanation.css);
+@import url(./PaymentCondition.css);
+
+
+
+
+
+.hidem{
+    display: none !important;
+}

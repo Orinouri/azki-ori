@@ -1,0 +1,58 @@
+.PaymentCondition{
+    max-width: 90%;
+    width: 1280px;
+    padding: 64px 88px;
+    border-radius: 48px;
+    border: .938px solid #e0e0e0;
+    background: #fff;
+    box-shadow: 0 40px 22px -29px rgba(4, 10, 31, .08);
+    margin: 120px auto;
+    display: flex;
+}
+
+.PaymentCondition .title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.27;
+    color: rgba(4, 10, 31, 0.87);
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.PaymentCondition .item-box{
+    flex-basis: 75%;
+    padding-left: 54px;
+    display: flex;
+    flex-flow: wrap;
+    row-gap: 48px;
+}
+
+.PaymentCondition .item-box .item{
+    flex-basis: 50%;
+    padding-right: 56px;
+    /* padding-top: 48px; */
+    display: flex;
+    align-items: center;
+}
+
+.PaymentCondition .item-box .item img{
+    width: 48px;
+    height: 48px;
+}
+.PaymentCondition .item-box .item .text{
+    margin-right: 16px;
+}
+.PaymentCondition .item-box .item .text .title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(4, 10, 31);
+}
+.PaymentCondition .item-box .item .text .dis{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(4, 10, 31, 0.87);
+}

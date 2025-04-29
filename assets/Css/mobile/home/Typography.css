@@ -1,0 +1,15 @@
+.Typography{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.Typography div{
+    font-size: 23px;
+    color: rgba(4, 10, 31, 0.87);
+    font-weight: 500px;
+    margin-bottom: 8px;
+}
+.Typography p{
+    color:rgba(4, 10, 31, 0.6) ;
+    font-size: 14px;
+}

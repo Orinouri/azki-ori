@@ -1,0 +1,61 @@
+.menu-offcanvas .offcanvas-body {
+    padding: 0;
+}
+.menu-offcanvas .offcanvas{
+    height: 45% !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+.menu-offcanvas .menu-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    text-decoration: none;
+    color: #2c3544;
+    transition: background-color 0.2s ease;
+    flex-direction: row;
+}
+.menu-offcanvas .menu-item:hover {
+    color: #008FFF;
+    background-color: #f5f7fa;
+    cursor: pointer;
+}
+
+.menu-offcanvas .menu-item:hover .icon{
+    color: #008FFF;
+    cursor: pointer;
+}
+
+.menu-offcanvas .menu-item .icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4f5053;
+}
+
+.menu-offcanvas .menu-item span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-offcanvas .offcanvas-header {
+    padding: 10px 32px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu-offcanvas .offcanvas-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3544;
+}
+
+.menu-offcanvas .btn-close {
+    opacity: 0.7;
+}
+
+.menu-offcanvas .btn-close:hover {
+    opacity: 1;
+}

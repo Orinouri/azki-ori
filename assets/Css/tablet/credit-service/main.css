@@ -1,0 +1,15 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./offcanvas-support.css);
+@import url(./service-modal.css);
+@import url(./Explanation.css);
+@import url(./PaymentCondition.css);
+@import url(./faq.css);
+@import url(../../setting.css);
+
+
+
+
+.hidet{
+    display: none !important;
+}

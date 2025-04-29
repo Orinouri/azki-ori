@@ -1,0 +1,145 @@
+.azkisarmayeh_card{
+    width: 95%;
+    max-width: 1064px;
+    height: 369px;
+    margin: 10px auto;
+    padding: 56px 88px;
+    background-color: #fff;
+    border-radius: 32px;
+    border: 3px solid rgba(35,65,223,.1);
+    box-shadow: 0 97px 39px -70px rgba(4,10,31,.1);
+    background-image: url(../../../Images/azki-sarmayeh.png);
+    background-repeat: no-repeat;
+
+}
+
+.azkisarmayeh_card .medcard_content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 48px;
+}
+
+.azkisarmayeh_card .medcard_content .right{
+    width: 256px;
+    height: 256px;
+    background-color: rgb(0, 143, 255);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.azkisarmayeh_card .medcard_content .right img {
+    width: 70%;
+    height: auto;
+}
+
+.azkisarmayeh_card .medcard_content .left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+    position: relative;
+    min-height: 256px;
+}
+
+.azkisarmayeh_card .medcard_content .left .title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.azkisarmayeh_card .medcard_content .left .right_title {
+    flex: 0 0 30%;
+    color: #008FFF;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.azkisarmayeh_card .medcard_content .left .left_title {
+    flex: 0 0 70%;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(4, 10, 31, 0.6);
+    text-align: right;
+}
+
+.azkisarmayeh_card .medcard_content .left .description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4B4B4B;
+    text-align: right;
+}
+
+.azkisarmayeh_card .medcard_content .left .bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.azkisarmayeh_card .medcard_content .left .features {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 16px;
+    margin-left: 0;
+}
+
+.azkisarmayeh_card .medcard_content .left .feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.azkisarmayeh_card .medcard_content .left .feature .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    background: rgba(35, 65, 223, 0.1);
+    border-radius: 4px;
+}
+
+.azkisarmayeh_card .medcard_content .left .feature:nth-child(1) .icon {
+    background: rgba(0, 149, 255, 0.1);
+}
+
+.azkisarmayeh_card .medcard_content .left .feature:nth-child(2) .icon {
+    background: rgba(35, 65, 223, 0.1);
+}
+
+.azkisarmayeh_card .medcard_content .left .feature:nth-child(3) .icon {
+    background: rgba(82, 196, 26, 0.1);
+}
+
+.azkisarmayeh_card .medcard_content .left .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.azkisarmayeh_card .medcard_content .left .buy_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background-color: #0095FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.azkisarmayeh_card .medcard_content .left .buy_button .arrow {
+    font-size: 20px;
+}
+

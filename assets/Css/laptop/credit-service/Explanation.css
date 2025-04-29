@@ -1,0 +1,78 @@
+.items{
+    margin-top: 60px;
+    background: radial-gradient(10.47% 20.55% at 75.17% 21.89%, rgba(255, 187, 0, .1) 0, rgba(255, 187, 0, 0) 100%), radial-gradient(44.95% 25.66% at 102.47% 57.32%, rgba(35, 65, 223, .08) 0, rgba(35, 65, 223, 0) 100%), radial-gradient(38.55% 41.03% at -6.28% 58.48%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+}
+.items .Explanation-box{
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Explanation-box .first{
+    flex-basis: 50%;
+    padding: 0 78px;
+}
+.Explanation-box .second{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Explanation-box .first h2{
+    width: 100%;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.27;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+.Explanation-box .first h3{
+    width: 100%;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.74;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.87);
+    margin: 16px 0;
+}
+
+.Explanation-box .first p{
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.6);
+}
+
+.Explanation-box .second img{
+    width: 400px;
+    height: 288px;
+}
+.Explanation-box .big-size img{
+    width: 436px !important;
+    height: 321px !important;
+}
+
+.Explanation-box .first .credit-btn {
+    display: inline-block;
+    background-color: #0095ff;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 46px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 24px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.Explanation-box .first .credit-btn:hover {
+    background-color: #0080e0;
+}

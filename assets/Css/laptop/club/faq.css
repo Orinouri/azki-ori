@@ -1,0 +1,117 @@
+/* ... existing code ... */
+.faq{
+  margin-top: 200px;
+  background: radial-gradient(10.47% 20.55% at 75.17% 21.89%, rgba(255, 187, 0, .1) 0, rgba(255, 187, 0, 0) 100%), radial-gradient(44.95% 25.66% at 102.47% 57.32%, rgba(35, 65, 223, .08) 0, rgba(35, 65, 223, 0) 100%), radial-gradient(38.55% 41.03% at -6.28% 58.48%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+}
+
+.faq .title{
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.74;
+  text-align: center;
+  color: rgba(4, 10, 31, 0.87);
+}
+
+.faq .flexboox{
+  display: flex;
+  color: #101010;
+  justify-content: center;
+  margin-top: 54px;
+
+}
+
+.faq .flexboox .img{
+  width: 250px;
+  margin-left: 100px;
+}
+
+.faq .flexboox .img img{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+/* Accordion Container */
+.faq .accordion-flush {
+background: transparent;
+border: none;
+width: 510px;
+/* margin: 0 auto; */
+/* margin-top: 200px; */
+
+}
+
+/* Accordion Item */
+.faq .accordion-item {
+  background: #fff;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 8px 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+/* Accordion Header/Button */
+.faq .accordion-button {
+  background: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(4, 10, 31, 0.87);
+  text-align: right;
+  border: none;
+  border-radius: 16px !important;
+  box-shadow: none;
+  transition: background 0.2s;
+  position: relative;
+  outline: none;
+  justify-content: space-between;
+}
+
+.faq .accordion-button:not(.collapsed) {
+background: #ffffff;
+color: #101010 !important;
+box-shadow: none;
+background-color: #ffffff !important;
+border-bottom-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+}
+
+.faq .accordion-button::after {
+content: '';
+display: inline-block;
+margin-right: 16px;
+margin-left: 0 !important;
+/* float: left; */
+width: 16px;
+height: 16px;
+background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="gray" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') !important;
+background-repeat: no-repeat;
+background-position: center;
+transition: transform 0.3s;
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+transform: rotate(180deg);
+}
+
+/* Accordion Body */
+.faq .accordion-body {
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(4, 10, 31, 0.6);
+  border-radius: 0 0 6px 6px;
+}
+
+/* Remove default border */
+.faq .accordion-flush .accordion-item {
+border: none;
+}
+
+/* ... existing code ... */
+

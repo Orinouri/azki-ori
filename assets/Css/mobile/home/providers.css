@@ -1,0 +1,35 @@
+.providers_section{
+    width: 100%;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../../Images/providers-background.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    align-items: center;
+    overflow: hidden;
+}
+
+.providers_section p{
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.providers_section .providers{
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+    flex-direction: row;
+    gap: 16px;
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+.providers_section .providers img {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+}

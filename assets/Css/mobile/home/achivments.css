@@ -1,0 +1,88 @@
+.achivments_box{
+    width: 90%;
+    max-width: 1280px;
+    /* height: 375px; */
+    background-color: rgba(4,10,31,.87);
+    border-radius: 32px;
+    margin: 250px auto;
+    /* padding: 64px 56px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.achivments_box .achivments_box_right{
+    flex-basis: 33.333333%;
+    position: absolute;
+    top: -6%;
+}
+
+.achivments_box .achivments_box_right img {
+    width: 100%;
+    height: 224px;
+    object-fit: contain;
+    max-width: 216px;
+    
+}
+
+.achivments_box .achivments_box_left{
+    flex-basis: 66.666667%;
+    width: 95%;
+    margin-top: 175px;
+}
+
+.achivments_title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.achivments_title h2 {
+    
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.achivments_title h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.achivments_stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.achivments_stats :last-child{
+    margin-bottom: 30px;
+}
+.stat_item {
+    text-align: center;
+    padding: 0 16px;
+}
+
+.stat_item h3 {
+    font-size: 24px;
+    line-height: 1.66;
+    font-weight: 500;
+    color: rgb(35, 180, 255);
+    margin-bottom: 8px;
+}
+
+.stat_item p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.divider {
+    display: none;
+}
+

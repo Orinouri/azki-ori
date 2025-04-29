@@ -1,0 +1,131 @@
+.b2b_card_box{
+    width: 95%;
+    max-width: 1280px;
+    margin: 200px auto;
+    border-radius: 32px;
+    position: relative;
+    background-color: rgba(4,10,31,.87);
+    background-size: cover;
+    background-image: url(../../../Images/backgroundb2b.jpeg);
+}
+
+
+.b2b_card_box .background{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    padding: 56px 172px 152px;
+    background-color: rgba(4,10,31,.87);
+    display: flex;
+    justify-content: center;
+}
+
+.b2b_card_box .b2b_container{
+    display: flex;
+
+}
+
+.b2b_card_box .b2b_container .left{
+    flex-basis: 33.3333%;
+}
+
+.b2b_card_box .b2b_container .right{
+    flex-basis: 66.66664%;
+
+}
+
+.b2b_card_box .b2b_container .right h2{
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+.b2b_card_box .b2b_container .right p{
+ color: rgb(255, 255, 255);
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.b2b_card_box .b2b_container .right .bottomsec{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.b2b_card_box .b2b_container .right .bottomsec ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.b2b_card_box .b2b_container .right .bottomsec li{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    padding-right: 14px;
+}
+
+.b2b_card_box .b2b_container .right .bottomsec li::before {
+    content: "•";
+    position: absolute;
+    right: 0;
+    color: rgb(255, 255, 255);
+}
+
+.b2b_card_box .b2b_container .right .bottomsec .request-button {
+    background-color: rgb(0, 143, 255);
+    color: white;
+    padding: 10px 60px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.b2b_card_box .b2b_container .right .bottomsec .request-button:hover {
+    background-color: #0052cc;
+}
+
+
+.b2b_card_box .collaborators{
+    width: 90%;
+    /* height: 200px; */
+    background-color: #fff;
+    padding: 24px 32px;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 1;
+    bottom: -93px;
+    box-shadow: 0 40px 22px -29px rgba(4, 10, 31, .08);
+}
+
+.b2b_card_box .collaborators p{
+    text-align: center;
+    margin-bottom: 16px;
+    color: rgba(4, 10, 31, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.b2b_card_box .collaborators .cardbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b2b_card_box .collaborators .cardbox .card{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.b2b_card_box .collaborators .cardbox .card img{
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,72 @@
+/* Offcanvas Support Styling */
+.offcanvas-end {
+  width: 400px;
+  max-width: 90%;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+}
+
+.offcanvas-title {
+  margin: 0;
+  font-family: IRANSansXFaNum;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0%;
+  color: rgba(4, 10, 31, 0.87);
+}
+.offcanvas-header .btn-close{
+  margin: 0 !important;
+  /* margin-right: auto; */
+}
+
+
+.support-categories {
+  margin-bottom: 1.5rem;
+}
+
+.support-category {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  padding-right: 0px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.support-category i {
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  color: #3498db;
+}
+
+.support-category-text {
+  flex: 1;
+}
+
+.support-category-text h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(4, 10, 31, 0.87);
+}
+
+.support-category-text p {
+  margin: 0px;
+  font-family: IRANSansXFaNum;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(4, 10, 31, 0.6);
+}
+
+.support-category-arrow {
+  color: #999;
+}

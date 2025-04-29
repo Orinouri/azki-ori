@@ -1,0 +1,51 @@
+.advantages_box {
+    height: 900px; /* Updated height */
+    padding: 20px; /* Updated padding */
+    background-color: #f0f0f0; /* Updated background color */
+}
+
+.advantages_box .content {
+    width: 100%;
+    padding-top: 40px; /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Adjusted gap */
+}
+
+.advantage_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adjusted gap */
+    padding: 20px; /* Adjusted padding */
+    border-radius: 16px;
+    background-color: #ffffff; /* Updated background color */
+    transition: all 0.3s ease;
+}
+
+.advantage_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Updated shadow */
+}
+
+.advantage_item .icon {
+    width: 60px; /* Adjusted icon size */
+    height: 60px; /* Adjusted icon size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #e0e0e0; /* Updated background color */
+}
+
+.advantage_item .text h3 {
+    font-size: 20px; /* Updated font size */
+    font-weight: 700; /* Updated font weight */
+    color: #222; /* Updated text color */
+}
+
+.advantage_item .text p {
+    font-size: 16px; /* Updated font size */
+    color: #555; /* Updated text color */
+    line-height: 1.6; /* Updated line height */
+}
